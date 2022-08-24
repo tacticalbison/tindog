@@ -25,7 +25,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -51,6 +51,8 @@ p {
 .nav-link {
   font-size: 1.25rem;
   font-weight: 100;
+  /* Align text in dropdown menu to right, no discernable change in spread nav bar  */
+  text-align: right;
 }
 
 /* Download Buttons */
@@ -62,14 +64,18 @@ p {
 
 .iphone-mockup {
   margin: 3rem;
+  position: absolute;
+  right: 20%;
   transform: rotate(20deg);
-  width: 60%;
+  width: 25%;
 }
 
 /* Features */
 
 #features {
+  background-color: #ffffff;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature {
@@ -113,11 +119,52 @@ p {
 
 .press-image {
   margin: 20px 20px 50px;
-  width: 15%;
+  width: 80%;
 }
 
 /* Pricing */
-/*
-.card {
+
+#pricing {
   text-align: center;
-} */
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  color: #ffffff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 2%;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #title {
+    text-align: center;
+    margin: auto;
+  }
+
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
