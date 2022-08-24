@@ -21,3 +21,4 @@ Created as part of <u>The Complete 2022 Web Development Bootcamp</u><br>_(Sectio
 ---
 
 **<u>Personal notes:</u>**
+When working with the Carousel built-in feature of Bootstrap, I wondered how this might be made accessible to those with keyboards or those with vision issues. After reading the documentation, I found the use of `data-bs-keyboard` and `data-bs-pause` to be helpful on those. During testing, however, I couldn't seem to get the keyboard controls to work. Will have to research this and study accessibility controls a bit more in a future study session.
