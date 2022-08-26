@@ -1,36 +1,49 @@
 body {
   font-family: "Montserrat", sans-serif;
-}
-
-h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-h3 {
-  font-size: 1.5;
-  font-weight: 900;
-  line-height: 1.5;
+  text-align: center;
 }
 
 p {
   color: #8f8f8f;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+/* Headings */
+
+.big-header {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
-#title {
+.section-header {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.feature-title {
+  font-size: 1.5;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.container-fluid {
+  padding: 9% 15%;
+}
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 9%;
+}
+
+.primary-color {
   background-color: #ff4c68;
   color: #ffffff;
+}
+.secondary-color {
+  background-color: #ffffff;
 }
 
 /* Navigation Bar */
@@ -63,24 +76,17 @@ p {
 /* Title Image */
 
 .iphone-mockup {
-  margin: 3rem;
+  margin: 0 3rem;
   position: absolute;
-  right: 20%;
-  transform: rotate(20deg);
-  width: 25%;
+  right: 15%;
+  transform: rotate(15deg);
+  width: max-content;
 }
 
 /* Features */
 
 #features {
-  background-color: #ffffff;
-  padding: 7% 15%;
   position: relative;
-}
-
-.feature {
-  padding: 5%;
-  text-align: center;
 }
 
 .icon {
@@ -97,24 +103,21 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #ffffff;
-  text-align: center;
 }
-
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
 .testimonial-image {
   border-radius: 100%;
   margin: 20px;
   width: 10%;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #ef8172;
   margin-bottom: 5%;
-  text-align: center;
 }
 
 .press-image {
@@ -124,47 +127,42 @@ p {
 
 /* Pricing */
 
-#pricing {
-  text-align: center;
+.pricing-title {
+  font-size: 1.5;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
-/* Call to Action */
-
-#cta {
-  background-color: #ff4c68;
-  color: #ffffff;
-  padding: 7% 15%;
-  text-align: center;
+.pricing-text {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 /* Footer */
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
 
 .footer-icon {
   margin: 2%;
 }
 
 @media (max-width: 1028px) {
-  h1 {
+  .big-header {
     font-size: 3rem;
   }
 
-  h2 {
-    font-size: 1.5rem;
+  .pricing-text,
+  .section-header,
+  .testimonial-text {
+    font-size: 1.75rem;
   }
 
-  #title {
+  #title > .container-fluid {
     text-align: center;
-    margin: auto;
   }
 
   .iphone-mockup {
     position: static;
     transform: rotate(0);
-    width: 60%;
+    width: 50%;
   }
 }
