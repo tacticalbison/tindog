@@ -2,7 +2,7 @@
 
 _Purpose: Create a mock site representing a startup website, showing an app that has been developed and attract users. Focus of modules should be on utilizing a front end framework (Bootstrap) to stylize a website and make it responsive._
 
-Created as part of <u>The Complete 2022 Web Development Bootcamp</u><br>_(Section 6-??)_
+Created as part of <u>The Complete 2022 Web Development Bootcamp</u><br>_(Section 6-7)_
 
 ---
 
